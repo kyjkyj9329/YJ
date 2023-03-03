@@ -1,0 +1,7 @@
+float: left; 일 때 부모선택자 overflow: hidden; 세트로!
+
+data-abcd
+나만의 커스터마이징 기능 data- 뒤에 맘대로 이름 붙여 사용
+
+https://validator.w3.org/
+코드 검토해주는 사이트
