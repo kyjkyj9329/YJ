@@ -1,0 +1,99 @@
+/* 초기값 */
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* 본문 스타일 */
+body {
+  background-color: #222;
+  height: 100%;
+}
+#container {
+  width: 900px;
+  position: relative;
+  left: 50%;
+  margin-left: -450px;
+}
+
+/* 측면 사이드 스타일 */
+aside {
+  float: left;
+  width: 280px; height: 100vh;
+  padding: 20px 30px;
+  background-color: rgb(216, 216, 216)
+}
+aside > #namecard > h1 {
+  margin-top: 20px;
+}
+#detail {
+  margin-top: 100px;
+}
+#sns {
+  margin-top: 50px;
+}
+#sns > ul > li {
+  display: inline-block;
+  width: 80px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+aside p {
+  margin-top: 10px;
+}
+
+/* 본문 스타일 */
+#main {
+  float: left;
+  width: 600px; height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+}
+#main > section {
+  width: 500px;
+  margin: 20px;
+  border-bottom: 1px dotted #222;
+}
+section > p {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+section > h4 {
+  margin-bottom: 10px;
+}
+ul {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+table > caption {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+table {
+  width: 400px; height: 100px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  text-align: center;
+}
+table > tbody > tr > td {
+  text-align: center;
+  border: 1px solid rgb(94, 94, 94);
+}
+table > tbody > tr:first-child {
+  background-color: rgb(206, 206, 206);
+}
