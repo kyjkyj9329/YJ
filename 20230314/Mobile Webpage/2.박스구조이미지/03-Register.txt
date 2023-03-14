@@ -1,0 +1,8 @@
+.container .register
+	.register-inner
+		.register-header
+			a > img
+			 
+		.register-content
+		
+		.gnb

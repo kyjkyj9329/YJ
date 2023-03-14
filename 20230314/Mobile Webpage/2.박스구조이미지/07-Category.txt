@@ -1,0 +1,21 @@
+.container .category
+	.category-inner
+		.main-header
+			[same html structure]
+			
+		.category-content
+			.category-list
+				span
+				button.btn-dropdown > font-icon
+				div > ul > (li > a) * 5
+			.category-list
+				button.btn-dropdown > font-icon
+			.category-list
+				button.btn-dropdown > font-icon
+			.category-list
+				button.btn-dropdown > font-icon
+			.category-list
+				button.btn-dropdown > font-icon
+		
+		.gnb
+			[same html structure]
